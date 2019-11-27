@@ -20,7 +20,17 @@ theme = "hugo-coder"
     name="Twitter"
     icon="fab fa-twitter fa-2x"
     weight=2
-    url="https://twitter.com/users/bwynn_dev"
+    url="https://twitter.com/bwynn_dev"
+[[params.social]]
+    name="Codepen"
+    icon="fab fa-codepen fa-2x"
+    weight=2
+    url="https://codepen.io/b_wynn"
+[[params.social]]
+    name="Repl.it"
+    icon="fas fa-robot fa-2x"
+    weight=2
+    url="https://repl.it/@bwynn"
 
 [[menu.main]]
     name="Blog"
