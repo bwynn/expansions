@@ -3,12 +3,17 @@ languageCode = "en-us"
 title = "bwynn.io"
 theme = "hugo-coder"
 
+paginate = 10
+
 [params]
     author="Brian Wynn"
     info="UI Engineer"
     description="The personal website for Brian Wynn, javascript and golang software engineer."
 
     footercontent="©2020 Brian Wynn"
+
+    hideCredits = true
+    hideCopyright = true
 
 # social
 [[params.social]]
