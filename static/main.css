@@ -1,0 +1,25 @@
+p,
+span,
+li,
+a,
+h1,
+h2,
+h3,
+.centered .about h1,
+.centered .about h2,
+.centered .about ul li a,
+.list ul li .title,
+.navigation a,
+code,
+pre code {
+  color: #fafafa;
+}
+
+body,
+main,
+section,
+aside,
+header,
+nav {
+    background-color: #333;
+}

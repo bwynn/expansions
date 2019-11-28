@@ -10,17 +10,18 @@ paginate = 10
     info="UI Engineer"
     description="The personal website for Brian Wynn, javascript and golang software engineer."
 
-    footercontent="©2020 Brian Wynn"
+    footercontent="Be Excellent To Each Other"
 
     hideCredits = true
     hideCopyright = true
 
-    colorscheme = "dark"
-
     custom_css = ["main.css"]
 
 [params.csp]
-    scriptsrc = ["'self'"]
+    scriptsrc = [
+        "'self'",
+        "https://bwynn.io"
+    ]
 
 # social
 [[params.social]]
