@@ -20,7 +20,8 @@ paginate = 10
 [params.csp]
     scriptsrc = [
         "'self'",
-        "https://bwynn.io/*"
+        "https://bwynn.io/*",
+        "https://www.bwynn.io/*"
     ]
 
 # social
