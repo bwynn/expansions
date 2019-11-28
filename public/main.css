@@ -1,26 +1,25 @@
 p,
+span,
 li,
 a,
 h1,
 h2,
 h3,
-span,
-code,
-pre code,
-.navigation a,
-.navigation span,
+.centered .about h1,
+.centered .about h2,
 .centered .about ul li a,
-.list ul li .title {
-    color: #f6f6f6;
+.list ul li .title,
+.navigation a,
+code,
+pre code {
+  color: #fafafa;
 }
 
 body,
 main,
 section,
-div,
-header,
 aside,
-footer {
-    background-color: #343434;
+header,
+nav {
+    background-color: #333;
 }
-
