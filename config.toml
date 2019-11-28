@@ -17,6 +17,9 @@ paginate = 10
 
     custom_css = ["main.css"]
 
+[params.csp]
+    scriptsrc = ["'self'"]
+
 # social
 [[params.social]]
     name="Github"
