@@ -15,6 +15,8 @@ paginate = 10
     hideCredits = true
     hideCopyright = true
 
+    custom_css = ["main.css"]
+
 # social
 [[params.social]]
     name="Github"
