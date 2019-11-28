@@ -15,6 +15,8 @@ paginate = 10
     hideCredits = true
     hideCopyright = true
 
+    colorscheme = "dark"
+
     custom_css = ["main.css"]
 
 [params.csp]
