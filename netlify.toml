@@ -1,4 +1,5 @@
 [[headers]]
     for = "/*"
     [headers.values]
-        Access-Control-Allow-Origin = "https://www.bwynn.io, https://bwynn.io"
+        Access-Control-Allow-Origin = "https://bwynn.io"
+        Vary = "Origin"
