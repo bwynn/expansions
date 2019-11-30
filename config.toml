@@ -5,7 +5,7 @@ theme = "hugo-coder"
 
 paginate = 10
 
-disqusShortname = "disqus_sdtDGvQ6Jb"
+disqusShortname = "bwynn_dev"
 
 [params]
     author="Brian Wynn"
