@@ -8,7 +8,7 @@ draft: false
 My first entry will consist of my various attempts at playing around with the
 various markdown formats and seeing how they render.
 
-### A code snipped
+### A code snippet
 ```js
 const hello = () => {
     return `Hello, World`
