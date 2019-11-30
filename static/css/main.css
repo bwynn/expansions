@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(#1F4480, #1F5A80);
+}
+
+p,
+li,
+a,
+h1,
+h2,
+h3,
+span,
+code,
+pre code,
+.navigation a,
+.navigation span,
+.centered .about ul li a,
+.list ul li .title {
+    color: #fff;
+    text-shadow: 2px 2px 5px #1C468A;
+}
+
+.centered .about ul li a:hover,
+.navigation a:hover {
+    color: #8ACDFF;
+}
+
