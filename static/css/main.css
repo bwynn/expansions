@@ -14,6 +14,7 @@ pre code,
 .navigation a,
 .navigation span,
 .centered .about ul li a,
+.navigation .menu-button,
 .list ul li .title {
     color: #fff;
     text-shadow: 2px 2px 5px #1C468A;
@@ -22,5 +23,11 @@ pre code,
 .centered .about ul li a:hover,
 .navigation a:hover {
     color: #8ACDFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation .navigation-list {
+        background-color: #1F4480;
+    }
 }
 
