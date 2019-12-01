@@ -20,9 +20,7 @@ marketing right out of college.
 
 I found myself back up in the Bay Area, managing a bike shop and riding bikes
 again as we rounded into the 2010s. I met my wife while still running the store, and
-started getting interested in the direction of web development. It started with
-late-nights after my at-the-time girlfriend was asleep on the couch, after a
-long, full-day at work. 
+I started getting teaching myself to code at night.
 
 Persistence and a healthy dose of naïvety led me to leave my job  and venture
 out into the digital world. It wasn't too long into my solo-gig that I was

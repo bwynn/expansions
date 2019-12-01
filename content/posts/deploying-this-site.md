@@ -77,7 +77,8 @@ there's still hope, as someone has chosen to continue sending me paychecks.
 The hope and goal for this blog is to provide a positive reinforcement chamber
 to visit to help both you and me remember that if we don't give up, we'll
 eventually get there. Persistence is one of the key attributes that help me grow
-as a developer. We WILL find the answer. An answer. Any answer.
+as a developer. We WILL find the answer. An answer. Any answer. Make it work
+first, then make it nice.
 
 ### Issues switching DNS proxies/redirects.
 My domain is hosted through [google domains](https://domains.google.com) - I had
@@ -112,6 +113,9 @@ CORS Access-Control-Allow-Origin` gave me a quick pointer to this [handy
 doc](https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file),
 which would have been nice to see more prominently in Netlify's docs.
 
+Adding the following config file to my project directory with the defined
+headers set to accept any origin like so: 
+
 **netlify.toml**
 ```yaml
 [headers]
@@ -119,3 +123,31 @@ which would have been nice to see more prominently in Netlify's docs.
     [headers.values]
         Access-Control-Allow-Origin = "*"
 ```
+
+I'll plan to update this later, but for all
+intents and purposes, my goal has been to get the site loading without any
+errors.
+
+### Wrapping Up
+As I sit here on the Saturday night after Thanksgiving, I checked off all of the
+items on my list with the exception of the svg 404 animation. I have an idea as
+to how I'd like to go about this, but I want to be able to spend some concerted
+time sketching out the animation and then digitizing it. Maybe I'll save that
+for the next break, coming up in a few weeks. Instead, we have this post -
+switching my deployment pipeline to Netlify from Heroku, along with a fresh new
+website, which is really nicely put together from a developer's perspective. I
+have been pretty impressed with my experience thus-far!
+
+Best part: I was able to get all of this done working around the various
+bookends of the day - I didn't have to cut into quality time (okay maybe 5
+minutes!) with my family to get this done by the end of my break.
+
+Lessons learned - take some screen shots to add into my posts. I do it at work -
+what gives 🤷‍♂️?!
+
+This would also be a good time to mention the developer who built this awesome
+Hugo theme, [Luiz de Prá](https://github.com/luizdepra/hugo-coder/) and has some
+great documentation around this theme - muito obrigado!
+
+Thanks everyone for taking the time to stop by and read my post, I hope that my fumbling
+around can help shine a light in a direction that works for you.

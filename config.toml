@@ -14,7 +14,7 @@ disqusShortname = "bwynn_dev"
 
     footercontent="Be Excellent To Each Other"
 
-    hideCredits = true
+    hideCredits = false
     hideCopyright = true
 
     custom_css = ["css/main.css"]
