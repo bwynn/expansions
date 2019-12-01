@@ -151,3 +151,5 @@ great documentation around this theme - muito obrigado!
 
 Thanks everyone for taking the time to stop by and read my post, I hope that my fumbling
 around can help shine a light in a direction that works for you.
+
+![staring](https://bwynn.io/images/staring.jpg)
