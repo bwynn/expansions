@@ -23,7 +23,9 @@ disqusShortname = "bwynn-io"
     scriptsrc = [
         "'self'",
         "https://bwynn.io",
-        "https://www.bwynn.io"
+        "https://www.bwynn.io",
+        "https://bwynn.dev",
+        "https://www.bwynn.dev"
     ]
 
 # social
