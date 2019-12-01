@@ -1,6 +1,6 @@
-baseURL = "https://bwynn.io/"
+baseURL = "https://bwynn.dev/"
 languageCode = "en-us"
-title = "bwynn.io"
+title = "bwynn.dev"
 theme = "hugo-coder"
 
 paginate = 10
