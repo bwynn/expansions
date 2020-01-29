@@ -3,40 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bwynn.io/</loc>
-    <lastmod>2019-11-26T11:46:33-08:00</lastmod>
+    <loc>https://bwynn.dev/</loc>
+    <lastmod>2019-11-29T20:51:13-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bwynn.io/tutorials/intro-tutorial/</loc>
-    <lastmod>2019-11-26T11:46:33-08:00</lastmod>
+    <loc>https://bwynn.dev/posts/deploying-new-site/</loc>
+    <lastmod>2019-11-29T20:51:13-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bwynn.io/tutorials/</loc>
-    <lastmod>2019-11-26T11:46:33-08:00</lastmod>
+    <loc>https://bwynn.dev/posts/</loc>
+    <lastmod>2019-11-29T20:51:13-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bwynn.io/posts/my-first-post/</loc>
-    <lastmod>2019-11-21T22:56:09-08:00</lastmod>
+    <loc>https://bwynn.dev/about/</loc>
   </url>
   
   <url>
-    <loc>https://bwynn.io/posts/</loc>
-    <lastmod>2019-11-21T22:56:09-08:00</lastmod>
+    <loc>https://bwynn.dev/categories/</loc>
   </url>
   
   <url>
-    <loc>https://bwynn.io/about/</loc>
+    <loc>https://bwynn.dev/tags/</loc>
   </url>
   
   <url>
-    <loc>https://bwynn.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bwynn.io/tags/</loc>
+    <loc>https://bwynn.dev/tutorials/</loc>
   </url>
   
 </urlset>

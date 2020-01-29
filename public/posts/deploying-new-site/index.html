@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Brian Wynn">
+    <meta name="description" content="The personal website for Brian Wynn, javascript and golang software engineer.">
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Deploying this site"/>
+<meta name="twitter:description" content="process for migrating everything over to this site"/>
+
+    <meta property="og:title" content="Deploying this site" />
+<meta property="og:description" content="process for migrating everything over to this site" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bwynn.dev/posts/deploying-new-site/" />
+<meta property="article:published_time" content="2019-11-29T20:51:13-08:00" />
+<meta property="article:modified_time" content="2019-11-29T20:51:13-08:00" />
+
+
+    
+      <base href="https://bwynn.dev/posts/deploying-new-site/">
+    
+    <title>
+  Deploying this site · bwynn.dev
+</title>
+
+    
+      <link rel="canonical" href="https://bwynn.dev/posts/deploying-new-site/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://bwynn.dev/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://bwynn.dev/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.59.1" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      bwynn.dev
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle">
+        <span class="nav-toggle-box" />
+    </label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://bwynn.dev/about">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://bwynn.dev/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://bwynn.dev/tutorials/">Tutorials</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Deploying this site</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-11-29T20:51:13-08:00'>
+                November 29, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              6 minutes read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        
+
+<h2 id="background">Background</h2>
+
+<p><strong>I haven&rsquo;t changed my site in over 3 years.</strong></p>
+
+<h3 id="why-the-need-for-the-change">Why the need for the change?</h3>
+
+<p>At the time that I last worked on my site, it was to make sure that I had
+everything properly hosted while I was interviewing for my current job. I
+wrote bwynn.io in jQuery and my goals and objectives were different than my
+needs are now.</p>
+
+<p>I saw a convergence of my various responsibilities in life open up for a chance
+to delve into <a href="https://gohugo.io">Hugo</a>. It seemed like the right platform to
+host my site, as my goals are to work on my writing/blogging, and to do some
+light <a href="https://golang.io">golang</a> in my spare-time. I get to use go at work, but
+I spend a vast majority of my time in JavaScript-land, and want to have a reason
+to stay somewhat on top of things as long as I&rsquo;m not directly working on a
+project in go at work.</p>
+
+<p>So, it&rsquo;s the week of Thanksgiving 2019. I have the week off, and while my focus
+is and has been on spending my time off with my wife and our 3 year old son,
+they are both asleep right now and I have been able to steal 10 minutes here, 15
+minutes there.</p>
+
+<p>I&rsquo;ve found that being as disorganized as I can be, writing things down and
+making lists help me keep track of my plan-of-attack and focus my efforts. I
+used to think I could keep everything in my head, but I tell you - that is a
+young person&rsquo;s game. Smarter, not harder. Write it down.</p>
+
+<p>My list started off as follows:</p>
+
+<ul>
+<li>update personal computer</li>
+<li>install/update go</li>
+<li>create/init Hugo blog project</li>
+<li>create index page</li>
+<li>create 404 page/coming soon page
+
+<ul>
+<li>svg animation</li>
+</ul></li>
+<li>deploy via netlify and fw from bwynn.io</li>
+</ul>
+
+<p>First: I pulled out my computer, my personal MacBookPro. It&rsquo;s a 2013, and I have
+been using a 2019 MBP (no, not the 16&rdquo;) for the last few months, and the
+keyboard is a switch! Heyo!</p>
+
+<p>Updated software, <code>brew cleanup</code>, and <code>brew install golang</code>, and I had the first
+two items ticked off my list.</p>
+
+<p>Going through the Hugo docs and getting started was really easy, I followed it
+to a &rsquo;T&rsquo;, through deployment via Netlify. Probably took me 30 minutes to get
+everything set up. Now that said, if you are interested in using Hugo and are in
+the process of learning Go, I would strongly recommend a visit over to the <a href="https://golang.org/doc/code.html">Go
+Docs</a>, where there is a deep-dive on setting
+up your local Go environment - which is crucial to that <code>Probably took me 30
+minutes...</code> part a few sentences ago. Thoroughly go through the docs to ensure
+you get your environment and <code>env</code> variables all properly set up, or else add
+&lsquo; * x&rsquo; to the amount of time estimated to get set up - &lsquo;x&rsquo; being your speed.</p>
+
+<p>I tend to go pretty slow, and skip over crucial sentences in documentation, and
+execute things before I&rsquo;m supposed to; and can create a mess - I don&rsquo;t want to
+venture how long it took me to get my go environment set up properly the first
+time, it wasn&rsquo;t until I had figured out how to resolve my mangled <code>PATH</code> env
+variable and its relation to the go binary. Lets call it a week and then voila,
+if it takes you less time than that, genius! If it took you a week or longer,
+there&rsquo;s still hope, as someone has chosen to continue sending me paychecks.</p>
+
+<p>The hope and goal for this blog is to provide a positive reinforcement chamber
+to visit to help both you and me remember that if we don&rsquo;t give up, we&rsquo;ll
+eventually get there. Persistence is one of the key attributes that help me grow
+as a developer. We WILL find the answer. An answer. Any answer. Make it work
+first, then make it nice.</p>
+
+<h3 id="issues-switching-dns-proxies-redirects">Issues switching DNS proxies/redirects.</h3>
+
+<p>My domain is hosted through <a href="https://domains.google.com">google domains</a> - I had
+briefly considered throwing the static site up on a linode-node, but opted to
+use <a href="https://netlify.com">netlify</a> to handle the deployment and CI. While I had
+previously deployed my site via Herkou, which has a similar DNS forwarding tools
+as Netlify. In both cases, I have the site proxied through bwynn.io and then
+pointing/forwarding along to the Netlify address.</p>
+
+<p>Configuring my site deployment through Netlify has for the most-part, been a
+breeze.</p>
+
+<h3 id="cors-issues-with-netlify-and-hugo-coder-theme">CORS issues with Netlify and Hugo-Coder theme</h3>
+
+<p>My only gripe using Netlify as my deployment pipeline thus far is that
+configuring some initial headers took a bit more digging to properly resolve the
+CORS issue I was seeing. Some of the <code>netlify.toml</code> config details weren&rsquo;t
+initially available.</p>
+
+<h3 id="persistent-cors-issues">Persistent CORS issues</h3>
+
+<p>So I finally get a rough template and draft static site going in my Hugo
+dev environment, and decide that I&rsquo;ll switch my domain forwarder to point to my
+Netlify site. Needs 48 hours to verify the certs. Okay, I can play the waiting
+game - pack up the family, drive to my wife&rsquo;s Mom&rsquo;s house 4 hours away, do
+Thanksgiving. Last night, after dinner, I pull up my site to see if the certs
+have validated. They have! WooHoo! Maybe all the status error issues I was
+seeing will go away. All do - except for the failed hashed-stylesheet that was
+generated via hugo as part of the vendor stylesheets that come with the
+Hugo-Coder theme.</p>
+
+<p>I still see an <code>Access-Control-Allow-Origin</code> error. A quick search of <code>netlify
+CORS Access-Control-Allow-Origin</code> gave me a quick pointer to this <a href="https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file">handy
+doc</a>,
+which would have been nice to see more prominently in Netlify&rsquo;s docs.</p>
+
+<p>Adding the following config file to my project directory with the defined
+headers set to accept any origin like so:</p>
+
+<p><strong>netlify.toml</strong></p>
+
+<pre><code class="language-yaml">[headers]
+    for = &quot;/*&quot;
+    [headers.values]
+        Access-Control-Allow-Origin = &quot;*&quot;
+</code></pre>
+
+<p>I&rsquo;ll plan to update this later, but for all
+intents and purposes, my goal has been to get the site loading without any
+errors.</p>
+
+<h3 id="wrapping-up">Wrapping Up</h3>
+
+<p>As I sit here on the Saturday night after Thanksgiving, I checked off all of the
+items on my list with the exception of the svg 404 animation. I have an idea as
+to how I&rsquo;d like to go about this, but I want to be able to spend some concerted
+time sketching out the animation and then digitizing it. Maybe I&rsquo;ll save that
+for the next break, coming up in a few weeks. Instead, we have this post -
+switching my deployment pipeline to Netlify from Heroku, along with a fresh new
+website, which is really nicely put together from a developer&rsquo;s perspective. I
+have been pretty impressed with my experience thus-far!</p>
+
+<p>Best part: I was able to get all of this done working around the various
+bookends of the day - I didn&rsquo;t have to cut into quality time (okay maybe 5
+minutes!) with my family to get this done by the end of my break.</p>
+
+<p>Lessons learned - take some screen shots to add into my posts. I do it at work -
+what gives 🤷‍♂️?!</p>
+
+<p>This would also be a good time to mention the developer who built this awesome
+Hugo theme, <a href="https://github.com/luizdepra/hugo-coder/">Luiz de Prá</a> and has some
+great documentation around this theme - muito obrigado!</p>
+
+<p>Thanks everyone for taking the time to stop by and read my post, I hope that my fumbling
+around can help shine a light in a direction that works for you.</p>
+
+<p><img src="https://bwynn.io/images/staring.jpg" alt="staring" /></p>
+
+      </div>
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bwynn-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Be Excellent To Each Other</p>
+    
+    
+    
+      
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

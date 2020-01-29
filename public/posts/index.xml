@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on bwynn.io</title>
-    <link>https://bwynn.io/posts/</link>
-    <description>Recent content in Posts on bwynn.io</description>
+    <title>Posts on bwynn.dev</title>
+    <link>https://bwynn.dev/posts/</link>
+    <description>Recent content in Posts on bwynn.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2019 22:56:09 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 20:51:13 -0800</lastBuildDate>
     
-	<atom:link href="https://bwynn.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bwynn.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://bwynn.io/posts/my-first-post/</link>
-      <pubDate>Thu, 21 Nov 2019 22:56:09 -0800</pubDate>
+      <title>Deploying this site</title>
+      <link>https://bwynn.dev/posts/deploying-new-site/</link>
+      <pubDate>Fri, 29 Nov 2019 20:51:13 -0800</pubDate>
       
-      <guid>https://bwynn.io/posts/my-first-post/</guid>
-      <description> It&amp;rsquo;s alive! My first entry will consist of my various attempts at playing around with the various markdown formats and seeing how they render.
-A code snipped const hello = () =&amp;gt; { return `Hello, World` }  And some more content </description>
+      <guid>https://bwynn.dev/posts/deploying-new-site/</guid>
+      <description>Background I haven&amp;rsquo;t changed my site in over 3 years.
+Why the need for the change? At the time that I last worked on my site, it was to make sure that I had everything properly hosted while I was interviewing for my current job. I wrote bwynn.io in jQuery and my goals and objectives were different than my needs are now.
+I saw a convergence of my various responsibilities in life open up for a chance to delve into Hugo.</description>
     </item>
     
   </channel>

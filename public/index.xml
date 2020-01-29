@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bwynn.io</title>
-    <link>https://bwynn.io/</link>
-    <description>Recent content on bwynn.io</description>
+    <title>bwynn.dev</title>
+    <link>https://bwynn.dev/</link>
+    <description>Recent content on bwynn.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2019 11:46:33 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 20:51:13 -0800</lastBuildDate>
     
-	<atom:link href="https://bwynn.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bwynn.dev/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Intro Tutorial</title>
-      <link>https://bwynn.io/tutorials/intro-tutorial/</link>
-      <pubDate>Tue, 26 Nov 2019 11:46:33 -0800</pubDate>
-      
-      <guid>https://bwynn.io/tutorials/intro-tutorial/</guid>
-      <description> I am a sample tutorial Here is what happens when I decide I am going to create a set of tutorial-blog posts as a part of my website.
-I can include:
-// code-snippets const helloWorld = () =&amp;gt; `Hello, World~` func myFunc () { return helloWorld() }  </description>
-    </item>
     
     <item>
-      <title>My First Post</title>
-      <link>https://bwynn.io/posts/my-first-post/</link>
-      <pubDate>Thu, 21 Nov 2019 22:56:09 -0800</pubDate>
+      <title>Deploying this site</title>
+      <link>https://bwynn.dev/posts/deploying-new-site/</link>
+      <pubDate>Fri, 29 Nov 2019 20:51:13 -0800</pubDate>
       
-      <guid>https://bwynn.io/posts/my-first-post/</guid>
-      <description> It&amp;rsquo;s alive! My first entry will consist of my various attempts at playing around with the various markdown formats and seeing how they render.
-A code snipped const hello = () =&amp;gt; { return `Hello, World` }  And some more content </description>
+      <guid>https://bwynn.dev/posts/deploying-new-site/</guid>
+      <description>Background I haven&amp;rsquo;t changed my site in over 3 years.
+Why the need for the change? At the time that I last worked on my site, it was to make sure that I had everything properly hosted while I was interviewing for my current job. I wrote bwynn.io in jQuery and my goals and objectives were different than my needs are now.
+I saw a convergence of my various responsibilities in life open up for a chance to delve into Hugo.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://bwynn.io/about/</link>
+      <link>https://bwynn.dev/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bwynn.io/about/</guid>
+      <guid>https://bwynn.dev/about/</guid>
       <description>I spend most of my professional time writing JavaScript and Golang web applications as a UI Engineer at Apple, Inc. Some of that other time is spent in meetings.
-In my spare time, I like to spend time with my wife and son, and our dog Molly. I dabble in the culinary sciences, primarily attempting to make different types of breads and pretending that I can barbeque.
-I grew up in the SF Bay Area, and graduated in 2006 from California Lutheran University with an undergraduate degree in Multimedia Design.</description>
+I like to spend my spare time with my wife and son, and our dog Molly. I dabble in the culinary sciences, primarily attempting to make different types of breads and pretending that I can barbeque.
+I grew up in the SF Bay Area making bike videos and getting chased around by rent-a-cops.</description>
     </item>
     
   </channel>
